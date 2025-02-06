@@ -1,20 +1,18 @@
+# Expense Tracker App
 
-
-A **Streamlit-based application** for tracking **expenses, revenue, and investments** of startups using **Firebase Firestore**.
+A simple expense tracker built with Streamlit.
 
 ## Features
-- 📊 **Expense Tracking** – Operational costs, marketing, software, rent, salaries  
-- 💰 **Revenue Tracking** – Subscriptions, product sales, sponsorships  
-- 📈 **Investment Tracking** – Seed, Series A, B, angel, venture debt  
-- 🔥 **Burn Rate Calculation** – Daily expense rate for financial planning  
-- 📊 **Interactive Dashboard** – Real-time charts with Plotly  
+- Add and view expenses
+- Categorize expenses
+- See total spent
 
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the app: `streamlit run app.py`
 
-## 🔥 Roadmap
-- Integration with Google Sheets for auto-exporting data
-- AI-powered cost optimization suggestions
-- Multi-user authentication with Firebase
+## Deploy on Streamlit
+1. Push this repo to GitHub
+2. Go to [Streamlit Community Cloud](https://share.streamlit.io/)
+3. Connect your GitHub repo and deploy
 
----
-
-**Happy Tracking! Let’s make startup finances simple and insightful!**
